@@ -1,15 +1,15 @@
 {
   "name": "book-service",
   "version": "1.0.0",
+  "description": "Microservice pour la gestion des livres",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "TonNom",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
   }
 }

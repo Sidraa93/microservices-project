@@ -13,8 +13,8 @@ spec:
         app: book-service
     spec:
       containers:
-        - name: book-service
-          image: sidra814/book-service
+        - name: book
+          image: sidra814/book-service:latest
           ports:
             - containerPort: 3000
 
